@@ -162,6 +162,5 @@ def main():
     if words is False:
         sys.exit()
     word = get_random_word(words)
-    print(word)
     game(word)
 main()
